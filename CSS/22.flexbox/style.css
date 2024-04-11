@@ -1,0 +1,46 @@
+.container {
+  /*flex direction by default is row*/
+  display: flex;
+  flex-direction: row;
+  /*justify-content: aligns the content on the main axis */
+  /*area outside these elements are also included now when we do space-around*/
+  justify-content: space-between;
+  border: 10px solid black;
+  height: 90vh;
+  /*arranges the items on the vertical axis or the y-axis*/
+  /*what baseline does is it aligns the element with rest of the elements*/
+  /* align-items: flex-start; */
+  /*to avoid squishing of the elements we can use the  flex-wrap property*/
+  /* by default it is nowrap */
+  /* flex-wrap: wrap;
+  align-content: flex-start; */
+  /*align-content is used to align the content on the cross axis*/
+  /* column-gap: 2em;
+  row-gap: 1em; */
+}
+.box {
+  width: 150px;
+  height: 150px;
+  font-size: 8em;
+  text-align: center;
+  border-radius: 15px;
+}
+#box1 {
+  /* align self is used to align individual elements */
+  /* align-self: center; */
+  /* order : -1 will be at the first which is normally the case*/
+  order: 1;
+  background-color: red;
+}
+#box2 {
+  /* align-self: flex-end; */
+  background-color: yellow;
+}
+#box3 {
+  background-color: green;
+}
+#box4 {
+  background-color: blue;
+}
+
+

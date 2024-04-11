@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--post is basically used when we have to send insenstiive data-->
+    <form action="index.php" method="post" enctype="multipart/form-data">
+      <!--for attribute for accessibility and also when you click on label it goes to the input but id must be the same-->
+
+      <!--So the types of the form we learnt here
+      1.text
+      2.password
+      3.email
+      4.phone
+      5.date
+      6.checkbox
+      7.radiobutton
+      8.select-option tags
+      9.file - (accept attributr is important)
+      10.submit
+      11.reset
+
+      Note:the for attribute must match the 
+
+      -->
+      <label for="username">username</label>
+      <input type="text" name="" id="username" minlength="6" maxlength="15"
+      placeholder="spongebobsquarepants" ">
+      <br />
+      <label for="password">password</label>
+      <input type="password" id="password" required />
+      <br />
+
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="yeah@gmail.com" />
+      <br />
+      <label for="phone # :"></label>
+      <input
+        type="tel"
+        ,id="phone"
+        placeholder="123-456-7890"
+        pattern="[0-9]{3}-[0-9]{3}-{0-9}{4}"
+      />
+
+      <label for="bday">birthdate</label>
+      <input type="date" id="bday" /><br />
+
+      <label for="quantity">quantity:</label>
+      <input type="number" name="" id="quantity" /><br />
+
+      <label for="title">title:</label>
+
+      <label for="Mr.">Mr</label>
+      <input type="radio" id="Mr" value="Mr." name="title" />
+      <label for="Ms.">Ms.</label>
+      <input type="radio" id="Ms." value="Ms." name="title" />
+      <label for="PhD">PhD</label>
+      <input type="radio" id="PhD" value="PhD." name="title" /><br />
+
+      <label for="payment">payment</label>
+      <select name="" id="">
+        <option value="VISA">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Giftcard">Giftcard</option></select
+      ><br />
+
+      <label for="subscribe">subscribe:</label>
+      <input type="checkbox" /><br />
+
+      <label for="comment">Comment: </label>
+      <textarea id="comment" cols="25" rows="25"></textarea><br />
+
+      <label for="file">file:</label>
+      <input type="file" id="file" accept="image/png,image/jpeg" />
+
+      <input type="reset" /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

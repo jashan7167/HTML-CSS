@@ -1,0 +1,6 @@
+- why link in head?
+- more specifity inline,external?
+-
+-
+-
+-

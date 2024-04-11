@@ -1,0 +1,29 @@
+.fa-brands {
+  color: darkblue;
+}
+.icons {
+  text-align: center;
+}
+
+.icons > i {
+  padding: 10px;
+}
+/*with hyperlinks there is some underlying text decoration included */
+
+.icons a {
+  text-decoration: none;
+}
+/*inline css has more specificity than external css thats why the following code is not working */
+
+.fa-solid fa-house-chimney fa-2x:hover {
+  color: lightblue;
+}
+.fa-solid fa-address-card fa-2x:hover {
+  color: lightblue;
+}
+.fa-brands fa-youtube fa-2x:hover {
+  color: lightblue;
+}
+.fa-brands fa-instagram fa-2x:hover {
+  color: lightblue;
+}

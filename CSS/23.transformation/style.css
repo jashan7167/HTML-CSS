@@ -1,0 +1,36 @@
+#box1
+{
+ 
+  /* - will move the element in the opposite direction of the x-axis */
+  /* transform: translate(100px); */
+  /* rotate z works in the xy plane */
+  /* transform: rotateZ(45deg); */
+  /* scale will increase the size of the element */
+  /* transform: scale(0.5,0.5); */
+  /* skew will slant the element */
+  /* transform: skewX(40deg); */ 
+  /*we can apply more than one transofrmation at a time */
+  /* transform: translateX(100%) rotateZ(90deg) scale(0.5) skewX(30deg); */
+  background-color: red;
+}
+
+#box2
+{
+  background-color: lightseagreen;
+}
+
+#box3
+{
+background-color: lightpink;
+}
+
+.box
+{
+ width: 250px;
+  height: 250px;
+  border: 5px solid black;
+  font-size: 13em;
+  text-align: center;
+  transform: translateX(200px) rotateZ(45deg) scale(0.8);
+  
+}

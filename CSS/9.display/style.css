@@ -1,0 +1,16 @@
+div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+span {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: block; /*applying width and height on span only if its a block obviously*/
+}
+/*span takes only the space element needs*/
+/*inline-block is basically you can apply the width and height and also its inline*/
+/*none it just doesnot exits*/
+/*There's also a visibility property which basically makes the elements invisible  */

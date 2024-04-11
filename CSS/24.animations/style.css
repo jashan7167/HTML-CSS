@@ -1,0 +1,92 @@
+#box {
+  width: 250px;
+  height: 250px;
+  background-color: lightcoral;
+  font-size: 13em;
+  text-align: center;
+  /* animation-name: colorChange;
+  animation-duration: 2s; */
+  /* transform: translateX(330px); */
+}
+
+/*we can also use these with the psuedoclasses*/
+#box:hover {
+  animation-name: glow;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: reverse;
+  /* animation-direction: alternate-reverse;
+  animation-direction: alternate; */
+  /* animation-play-state: running; toggle on and off */
+  animation-timing-function: ease-in-out; /*ease in faster and then slows down whenn it reaches its destination linear during entire duration same speed if step then it will do the animation in steps and can also we can make custom timing function in the inspect*/
+
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(330px);
+  }
+}
+@keyframes slideRight {
+  to {
+    transform: translateX(330px);
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(300%);
+  }
+}
+@keyframes slideDown {
+  to {
+    transform: translateY(300%);
+  }
+}
+@keyframes rotate {
+  25% /* it means that 100% of the time we do rotate 360 deg if we do it 50% or 25% then it means 0.5 of the time it will rotate to 360 deg and come back */ {
+    transform: rotateY(360deg);
+    /* transform: rotateX(360deg);
+    transform: rotateZ(360deg); */
+  }
+}
+@keyframes grow {
+  50% {
+    transform: scale(2, 2); /*2 means 200%*/
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+@keyframes fade {
+  50% {
+    opacity: 0.5;
+  }
+}
+@keyframes colorChange {
+  0% {
+    background-color: orange;
+  }
+  20% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: green;
+  }
+  60% {
+    background-color: blue;
+  }
+  80% {
+    background-color: crimson;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes glow {
+  50% {
+    box-shadow: 0 0 50px yellow;
+  }
+}

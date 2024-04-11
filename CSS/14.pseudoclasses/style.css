@@ -1,0 +1,37 @@
+a:link {
+  background-color: skyblue;
+}
+a:hover {
+  font-size: 1.2em;
+  background-color: blue;
+}
+a:active {
+  color: red;
+  font-size: 1.1em;
+}
+a:visited {
+  color: magenta;
+}
+li:hover {
+  background-color: yellow;
+}
+/*elements not being hovered over is done by this class*/
+li:not(:hover) {
+  background-color: gray;
+}
+/*sort of like a formula can add 2n for every 2nd element or 3n for every 3rd element*/
+li:nth-child() {
+  background-color: yellow;
+}
+/*when i do this #greeting i specifically select the div with the tag greeting and use the child selector(>) to select the p tag otherwise we can use the normal nothing to select the descendents as well*/
+#greeting >p
+{
+  background-color: skyblue;
+  padding: 10px;
+  display: none;
+}
+
+#greeting:hover p
+{
+  display: block;
+}

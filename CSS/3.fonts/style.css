@@ -1,0 +1,19 @@
+/* when we want to load the font locally */
+@font-face {
+  font-family: JetBrainsMono-Light;
+  src: url(./fonts/JetBrainsMono-Light.ttf);
+}
+/* we must always have a fallback font */
+h1 {
+  font-family: Roboto, verdana, arial;
+}
+/* 1em is 100% 0.5 is 50% */
+p {
+  font-family: "Open Sans", "lucida console", "courier new";
+  font-size: 14px;
+  font-weight: 200;
+  font-style: italic;
+}
+pre {
+  font-family: JetBrainsMono-Light;
+}

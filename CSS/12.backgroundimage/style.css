@@ -1,0 +1,16 @@
+body
+{
+  background-image: url(./sample.png);
+  background-size: 300px 300px;
+  background-repeat: no-repeat; /*image will not repeat*/
+  background-position: center;
+  background-attachment: fixed;
+  /* background-size: cover;  */
+}
+
+/*background-attachment
+property 
+-fixed = background is fixed relative to the view-port
+local - the background is fixed relative to the elemnents content
+scroll - background is fixed relative to the element and doesnot scroll with its contents
+ background size - cover (covers the entire body tag even if the image is small)*/

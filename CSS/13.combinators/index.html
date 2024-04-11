@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!--
+  combinators = explains the relationship between listed selectors
+  = descendant
+  >=child
+  ~=general sibling
+  +=adjacent sibling
+-->
+<div id="container">
+<p>This is #1</p>
+<p>This is #2</p>
+<div>
+  <p>This is #3</p>
+</div>
+</div>
+<p>This is #4</p>
+<p>This is #5</p>
+<p>This is #6</p>
+
+<!--
+  all children are descendants but all descendants are not children
+  general siblings are basically in the body element like div and outside paragraph elements are
+  adjacent sibling is the one next to it but not the all siblings
+  if we create another div in body they both are siblings but not the elements inside them they are nieces and nephews
+-->
+  
+</body>
+</html>

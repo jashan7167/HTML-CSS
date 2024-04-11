@@ -1,0 +1,12 @@
+div
+{
+  border: 2px solid black;
+  height: 75px;
+  /* overflow: visible; */
+  /* overflow: hidden; */
+  /* overflow:clip;
+  overflow-clip-margin: 15px; */
+  /* overflow: scroll; */
+  overflow: auto; /*if we dont need the scroll bar it will not be shown until and unless we need it.*/
+  
+}

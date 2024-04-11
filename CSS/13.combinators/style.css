@@ -1,0 +1,19 @@
+#container
+{
+  border: 2px solid;
+}
+/* #container > p
+{
+  background-color: yellow;
+}
+#container p
+{
+  background-color: yellow;
+}
+#container ~ p
+{
+  background-color: yellow;
+} */
+#container + p
+{ background-color: yellow;
+}

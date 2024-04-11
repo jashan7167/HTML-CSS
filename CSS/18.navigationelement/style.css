@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+/*overflow hidden here sort of adjusts the height of the
+navbar when float property is applied on the list elements*/
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(34, 15, 59);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: red;
+}
+/*just to check what float left does it just makes the element inine respective to the direction like it will now not occupy space in the right of the browser*/
+
+/* .navbar li#contact
+{
+  float: left;
+} */
+.navbar li {
+  float: left;
+}

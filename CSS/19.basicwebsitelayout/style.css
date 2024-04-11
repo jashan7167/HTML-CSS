@@ -1,0 +1,40 @@
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: grey;
+}
+.navbar {
+  background-color: black;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+section {
+  width: 40%;
+  float: left;
+}
+
+article {
+  width: 30%;
+  float: left;
+ 
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: grey;
+  display: block;
+  clear: both;
+}
+/* if the width of screen is 600px or below we can change some css properties it is known as responsive css */
+@media screen and (max-width:600px) {
+  aside,section,article
+  {
+    width: 100%;
+  }
+  
+}

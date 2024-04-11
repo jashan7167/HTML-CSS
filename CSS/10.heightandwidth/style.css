@@ -1,0 +1,43 @@
+/* This CSS code defines a styling for a box and a container */
+
+/* Styling for the box */
+.box {
+  /* Sets a border around the box with 2px thickness, solid black color */
+  border: 2px solid black;
+  
+  /* Adds padding inside the box of 25px */
+  padding: 25px;
+  
+  /* Ensures that the total width and height of the box includes border and padding */
+  box-sizing: border-box;
+  
+  /* Sets the background color of the box to white */
+  background-color: white;
+  
+  /* Automatically adjusts the height of the box to fit its content */
+  height: auto;
+  
+  /* Sets the width of the box to 50% of its containing element's width */
+  width: 50%;
+  
+  /* Floats the box to the left, allowing other elements to wrap around it */
+  float: left;
+  
+  /* Centers the content inside the box horizontally */
+  text-align: center;
+  
+  /* Limits the maximum width of the box to 74% of its containing element's width */
+  max-width: 74%;
+  
+  /* Sets the minimum height of the box to 50% of its containing element's height */
+  min-height: 50%;
+}
+
+/* Styling for the container */
+.container {
+  /* Sets the background color of the container to gray */
+  background-color: gray;
+  
+  /* Sets the height of the container to 100% of the viewport height */
+  height: 100vh; /* 1vh = 1% of viewport height */
+}

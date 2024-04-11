@@ -1,0 +1,26 @@
+body
+{
+  margin: 0px;
+}
+.box
+{
+border: 5px solid;
+font-size: 5em;
+width: 250px;
+height: 250px;
+}
+#box1
+{
+  background: red;
+  /* margin property will apply evenly on all sides*/
+  /* margin-left: auto; now applying this margin at the left will take as much space as possible */
+  /* margin: auto; this will even out on all sides and the element will take as much space as needed */
+  /* (shorthand)margin: top left bottom right; */
+  /* margin: 10px 20px 50px 10px; */
+  margin: auto;
+}
+#box2
+{
+  margin: auto;
+  background: blue;
+}

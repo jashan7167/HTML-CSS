@@ -1,0 +1,61 @@
+/*pushed down to relative to where it normally is*/
+/* #box1
+{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  top:100px; 
+  left: 100px;
+} */
+
+/* fixed wrt to the browser */
+/* #box1
+{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;         make the position from bottom to zero
+  
+} */
+
+/* This CSS code defines styling for two boxes, box1 and box2 */
+
+/* Styling for box1 */
+#box1 {
+  /* Sets the width and height of box1 to 200px */
+  width: 200px;
+  height: 200px;
+
+  /* Sets the background color of box1 to cyan */
+  background-color: cyan;
+
+  /* Positions box1 fixed relative to the browser window */
+  position: fixed;
+
+  /* Pushes box1 down 100px from the top and right 100px from the left of the browser window */
+  top: 100px;
+  left: 100px;
+}
+
+/* Styling for box2 */
+#box2 {
+  /* Sets the width and height of box2 to 100px */
+  width: 100px;
+  height: 100px;
+
+  /* Sets the background color of box2 to tomato */
+  background-color: tomato;
+
+  /* Positions box2 absolutely within its nearest positioned ancestor (box1) */
+  position: absolute;
+
+  /* Places box2 50px from the top and 50px from the left edge of its nearest positioned ancestor (box1) */
+  top: 50px;
+  left: 50px;
+}
+
+
+/*sticky is like fixed but it does reserves some space for the original element*/
